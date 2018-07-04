@@ -5,4 +5,3 @@
 npm install redux --save
 npm install redux-logger --save
 ```
-## ---------------------------------
