@@ -8,6 +8,7 @@ git clone https://github.com/id1945/reactjs-redux.git
 dir
 cls
 cd <folder-name>
+.. cd
 ```
 ## Other git bash here:
 ```
@@ -15,6 +16,7 @@ ls
 ls -la
 clear
 cd <folder-name>
+.. cd
 ```
 ## 1-redux-middleware:
 ```
