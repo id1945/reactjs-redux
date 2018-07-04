@@ -9,12 +9,6 @@ dir
 cls
 cd <folder-name>
 ```
-## Other cmd:
-```
-dir
-cls
-cd <folder-name>
-```
 ## Other git bash here:
 ```
 ls
