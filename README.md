@@ -27,4 +27,5 @@ npm install redux-logger --save
 npm start
 ```
 [![N|Solid](http://www.tipsoninterview.in/wp-content/uploads/2017/09/react-logo-300x289.png)](https://www.facebook.com/id1892)
+------------
 *Developer: DuongHuuDai*
