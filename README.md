@@ -26,7 +26,15 @@ npm install redux --save
 npm install redux-logger --save
 npm start
 ```
+## 2-async-actions:
+```
+create-react-app 2-async-actions
+cd 2-async-actions
+npm install redux redux-logger redux-thunk axios --save
+npm start
+```
+
+
 [![N|Solid](http://www.tipsoninterview.in/wp-content/uploads/2017/09/react-logo-300x289.png)](https://www.facebook.com/id1892)
 ------------
 *Developer: DuongHuuDai*
-TEST
