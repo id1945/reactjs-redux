@@ -6,47 +6,43 @@ import registerServiceWorker from './registerServiceWorker';
 
 import { createStore, applyMiddleware } from 'redux';
 import { createLogger } from 'redux-logger'
-
 // REDCUER
 function counterReducer(state = { count: 0 }, action) {
   var nextState = {
     count: state.count
   }
-
   switch (action.type) {
     case 'ADD':
       nextState.count = state.count + 1
-      return nextState
       break;
     case 'MINUS':
       nextState.count = state.count - 1
-      return nextState
       break;
     case 'RESET':
       nextState.count = 0
-      return nextState
       break;
     default:
-      return state
+      return nextState;
   }
+  return nextState;
 }
-
 const logger = createLogger();
 const middleware  = applyMiddleware(logger);
 const store = createStore(counterReducer,middleware );
-
-store.subscribe(() => {
- console.log("store changed", store.getState())
-})
-
+//Class render
 class MyApp extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {count: 0};
+    store.subscribe(() => {
+       console.log("store changed", store.getState())
+       this.setState({count: store.getState().count});
+    })
   }
   render(){
     return (
       <div className="container">
-        <h1 id="counter"></h1>
+        <h1>{ this.state.count }</h1>
         <button className='btn btn-success mr-1' onClick={this.handleAdd}>Add</button>
         <button className='btn btn-info mr-1' onClick={this.handleMinus}>Minus</button>
         <button className='btn btn-danger' onClick={this.handleReset}>Reset</button>
@@ -63,6 +59,5 @@ class MyApp extends React.Component {
     store.dispatch({ type: 'RESET' })
   }
 }
-
 ReactDOM.render(<MyApp />, document.getElementById('root'));
 registerServiceWorker();
