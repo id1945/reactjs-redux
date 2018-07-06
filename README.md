@@ -40,6 +40,18 @@ cd 3-async-actions-promises
 npm install redux redux-logger redux-promise-middleware axios --save
 npm start
 ```
+## 4-structure-setup-with-react:
+```
+create-react-app 4-structure-setup-with-react
+cd 4-structure-setup-with-react
+npm install redux redux-logger redux-promise-middleware axios --save
+
+cd src
+mkdir user_info
+cd user_info
+mkdir actions components reducers
+npm start
+```
 
 
 [![N|Solid](http://www.tipsoninterview.in/wp-content/uploads/2017/09/react-logo-300x289.png)](https://www.facebook.com/id1892)
