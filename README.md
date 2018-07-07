@@ -87,7 +87,7 @@ npm start
 create-react-app 8-react-router
 cd 8-react-router
 npm install redux react-redux redux-logger redux-promise-middleware axios --save
-npm install react-router@3
+npm install react-router@3 --save
 
 cd src
 mkdir actions components containers reducers
