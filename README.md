@@ -82,6 +82,17 @@ cd src
 mkdir actions components containers reducers
 npm start
 ```
+## 8-react-router:
+```
+create-react-app 8-react-router
+cd 8-react-router
+npm install redux react-redux redux-logger redux-promise-middleware axios --save
+npm install react-router@3
+
+cd src
+mkdir actions components containers reducers
+npm start
+```
 [![N|Solid](http://www.tipsoninterview.in/wp-content/uploads/2017/09/react-logo-300x289.png)](https://www.facebook.com/id1892)
 ------------
 *Developer: DuongHuuDai*
