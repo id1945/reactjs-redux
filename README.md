@@ -62,7 +62,16 @@ cd src
 mkdir actions components containers reducers
 npm start
 ```
+## 6-redux-containers-call-ajax:
+```
+create-react-app 6-redux-containers-call-ajax
+cd 6-redux-containers-call-ajax
+npm install redux react-redux redux-logger redux-promise-middleware axios --save
 
+cd src
+mkdir actions components containers reducers
+npm start
+```
 [![N|Solid](http://www.tipsoninterview.in/wp-content/uploads/2017/09/react-logo-300x289.png)](https://www.facebook.com/id1892)
 ------------
 *Developer: DuongHuuDai*
