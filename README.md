@@ -72,6 +72,16 @@ cd src
 mkdir actions components containers reducers
 npm start
 ```
+## 7-user-list-data-readux:
+```
+create-react-app 7-user-list-data-readux
+cd 7-user-list-data-readux
+npm install redux react-redux redux-logger redux-promise-middleware axios --save
+
+cd src
+mkdir actions components containers reducers
+npm start
+```
 [![N|Solid](http://www.tipsoninterview.in/wp-content/uploads/2017/09/react-logo-300x289.png)](https://www.facebook.com/id1892)
 ------------
 *Developer: DuongHuuDai*
