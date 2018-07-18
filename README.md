@@ -93,6 +93,17 @@ cd src
 mkdir actions components containers reducers
 npm start
 ```
+## 9-react-router-indexroute:
+```
+create-react-app 9-react-router-indexroute
+cd 9-react-router-indexroute
+npm install redux react-redux redux-logger redux-promise-middleware axios --save
+npm install react-router@3 --save
+
+cd src
+mkdir actions components containers reducers
+npm start
+```
 [![N|Solid](http://www.tipsoninterview.in/wp-content/uploads/2017/09/react-logo-300x289.png)](https://www.facebook.com/id1892)
 ------------
-*Developer: DuongHuuDai*
+*Developer: DuongHuuDai* 
