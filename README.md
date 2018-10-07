@@ -7,7 +7,8 @@ git clone https://github.com/id1945/reactjs-redux.git
 ```
 dir
 cls
-cd <folder-name>
+cd <folder-name>   //Create folder
+echo.> your_file.txt  //Create file
 .. cd
 ```
 ## Other git bash here:
